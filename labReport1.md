@@ -7,3 +7,5 @@ If you already have VS code installed, you can skip this part and move onto Part
   There are separate versions for both Mac OS and Windows OS along with specific instructions on downloading both so make sure to follow them carefully. 
 * Once you have successfully installed VS code, open it up and the pop-up should look something like this (although the color and menu bar may differ         depending on your system's settings).
 ![Image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-01-11%20at%201.17.41%20PM.png)
+***
+### *Part 2 - Connecting to the Remote Server*
