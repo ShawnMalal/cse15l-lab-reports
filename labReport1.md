@@ -21,5 +21,16 @@
   
   [How to use Bash on Windows in VS Code](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) 
   
+  To access your UCSD course-specific account, go to this website and login with your credentials
+  
+  [Access your course-specific account here](https://sdacs.ucsd.edu/~icc/index.php)
+  
+  If you need any help with resetting your password, go to this tutorial and follow the instructions carefully: 
+  
+  [Tutorial on how to reset your course-specific account's password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
+  
+* Now that everything is set up, the first step is to open up your own VS Code terminal(Ctrl or Command + backtick , or use the Terminal → New Terminal menu option). Then, to use ssh, the command you must input in the terminal will look exactly like this, except you replace the 'zz' with your course-specific account.  
+
+
   
   
