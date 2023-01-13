@@ -2,7 +2,7 @@
 
 
 ## *Part 1 - How to install Visual Studio Code (VS code)*
-If you already have VS code installed, you can skip this part and move onto Part 2!
+  If you already have VS code installed, you can skip this part and move onto Part 2!
 
 * The first step is to go to the Visual Studio Code official website [Link](https://code.visualstudio.com/) which should look something like this:
 ![Image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-01-12%20at%208.43.30%20PM.png) 
