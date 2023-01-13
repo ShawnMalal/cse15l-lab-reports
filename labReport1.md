@@ -29,7 +29,7 @@
   
   [Tutorial on how to reset your course-specific account's password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
   
-* Now that everything is set up, the first step is to open up your own VS Code terminal (Ctrl or Command + backtick , or use the Terminal → New Terminal menu option). Then, to use ssh, the command you must input in the terminal will look exactly like this, except you replace the 'zz' with your course-specific account.  
+Now that everything is set up, open up your own VS Code terminal (Ctrl or Command + backtick , or use the Terminal → New Terminal menu option). Then, to use ssh, the command you must input in the terminal will look exactly like this, except you replace the 'zz' with your course-specific account.  
 
 > $ ssh cs15lwi23zz@ieng6.ucsd.edu
 
@@ -41,5 +41,19 @@ If this is the first time you are connecting to the remote server (which it most
 > The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 > RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 > Are you sure you want to continue connecting (yes/no/[fingerprint])?
+
+Assuming this is what it looks like, type and enter 'yes' in the terminal. The terminal will then prompt you to give your password, which is the password to your 'ieng6' account.
+
+> ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
+> The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
+> RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+> Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+> Password: 
+
+Enter your password and your client should now have connected to the remote server and the terminal should now look like this: 
+
+
+
+
   
   
