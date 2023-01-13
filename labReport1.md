@@ -12,5 +12,14 @@
 
 
 ## *Part 2 - Connecting to the Remote Server*
-**Note** Whenever you see any sort of code in a block like `this` then we are referring to the code running on the remote server 
+**Note:** Whenever you see any sort of code in a block like `this` then we are referring to the code running on the remote server 
   The goal in this part of the tutorial is to connect to a course-specific account which will be done so by using the VS Code terminal to connect to a       remote computer over the internet. 
+  
+  If you are on a Windows Operating System, make sure to go to this link [Git for Windows](https://gitforwindows.org/) to download Git for your system. 
+  
+  Once you have installed Git, follow the instructions in this post to set your default terminal to use the installed git-bash in VS Code: 
+  
+  [How to use Bash on Windows in VS Code](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) 
+  
+  
+  
