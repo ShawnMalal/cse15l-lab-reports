@@ -12,5 +12,5 @@
 
 
 ## *Part 2 - Connecting to the Remote Server*
-**Note** Whenever you see any sort of code in a block like 'this' then we are referring to the code running on the remote server 
+**Note** Whenever you see any sort of code in a block like `this` then we are referring to the code running on the remote server 
   The goal in this part of the tutorial is to connect to a course-specific account which will be done so by using the VS Code terminal to connect to a       remote computer over the internet. 
