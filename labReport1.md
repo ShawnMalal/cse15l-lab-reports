@@ -73,6 +73,12 @@ When running a command like ls -lat, your terminal should display something like
  
 ![image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-01-14%20at%201.05.40%20PM.png)
 where it lists some extension files
+  
+Trying another command, such as 'cat /home/linux/ieng6/cs15lwi23/public/hello.tx' will prompt you with a hello message
+  
+> Hello! Welcome to CSE 15L
+  
+Well, that's it for the tutorial! You now know how to access the remote server in the CSE basement and can run some commands both on your client server (own terminal) and the remote server (terminal that is shared with a computer in the CSE basement). 
 
 
 
