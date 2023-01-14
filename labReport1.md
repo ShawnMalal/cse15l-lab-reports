@@ -58,7 +58,21 @@ Now you are finally connected to the remote server! Your terminal is now connect
 
 ## *Part 3 - Trying some commands* 
 
-Now that you are connected to the remote server, try commands like -> 'cd', 'ls', 'pwd', 'mkdir', 'cp'
+Now that you are connected to the remote server, try commands like -> 'cd', 'ls', 'pwd', 'mkdir', 'cp'.
+For some additional specific commands, try:
+
+* cd ~
+* cd
+* ls -lat
+* ls -a
+* ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is another user's username
+* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+* cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+  
+When running a command like ls -lat, your terminal should display something like this: 
+ 
+![image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-01-14%20at%201.05.40%20PM.png)
+where it lists some extension files
 
 
 
