@@ -1,4 +1,4 @@
-# **Tutorial on how to log into a course-specific account on ieng6.**
+# **How to log into a course-specific account on ieng6.**
 
 
 ## *Part 1 - How to install Visual Studio Code (VS code)*
@@ -53,6 +53,12 @@ Assuming this is what it looks like, type and enter 'yes' in the terminal. The t
 Enter your password and your client should now have connected to the remote server and the terminal should now look like this: 
 
 ![image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-01-11%20at%202.25.37%20PM.png)
+
+Now you are finally connected to the remote server! Your terminal is now connected to a computer in the CSE basement, so any commands you run now, will run on that computer as well. 
+
+*Part 3 - Trying some commands* 
+
+
 
 
 
