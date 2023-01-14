@@ -56,7 +56,7 @@ Enter your password and your client should now have connected to the remote serv
 
 Now you are finally connected to the remote server! Your terminal is now connected to a computer in the CSE basement, so any commands you run now, will run on that computer as well. 
 
-*Part 3 - Trying some commands* 
+## *Part 3 - Trying some commands* 
 
 
 
