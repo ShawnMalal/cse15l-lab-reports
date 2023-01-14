@@ -58,7 +58,7 @@ Now you are finally connected to the remote server! Your terminal is now connect
 
 ## *Part 3 - Trying some commands* 
 
-Now that you are connected to the remote server, try commands like > cd, ls, pwd, mkdir, cp
+Now that you are connected to the remote server, try commands like -> 'cd', 'ls', 'pwd', 'mkdir', 'cp'
 
 
 
