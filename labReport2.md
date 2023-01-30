@@ -43,6 +43,9 @@ As for an input that did not produce a failure-inducing input was an empty array
     assertArrayEquals(new int[]{}, ArrayExamples.reversed(input1));
   }
 ```
+The symptom of the tests looked like this: 
+
+![image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-01-30%20at%203.28.21%20PM.png)
 
 Before fixing the bug in the code. It looked like this: 
 
@@ -51,4 +54,22 @@ static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
+}
+```
+
+I fixed the bug by creating a temporary array to copy the elements in reverse order thhen copied the elements from the temp array back into the original array: 
+
+```
+ static void reverseInPlace(int[] arr) {
+   int [] temp = new int [arr.length];
+   for(int i = 0; i < arr.length; i += 1) {
+     temp[i] = arr[arr.length - 1 - i];
+   }
+   for (int i = 0; i < arr.length; i++) {
+     arr[i] = temp[i];
+   }
+ }
+```
+
+  
  
