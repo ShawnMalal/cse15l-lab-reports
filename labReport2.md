@@ -57,7 +57,7 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 
-I fixed the bug by creating a temporary array to copy the elements in reverse order thhen copied the elements from the temp array back into the original array: 
+I fixed the bug by creating a temporary array to copy the elements in reverse order then copied the elements from the temp array back into the original array: 
 
 ```
  static void reverseInPlace(int[] arr) {
@@ -71,5 +71,8 @@ I fixed the bug by creating a temporary array to copy the elements in reverse or
  }
 ```
 
+## *Part 3 - What I Have Learned* 
+
+Throughout the last couple labs, I have learned numerous things, including how to build my own local web server and edit it depending on paths/queries/URIs, using Junit to test code as we were barely just starting with how to use it in CSE 12, so this lab where we experimented with Junit greatly helped with what I had to do in that course as well. Although Junit is fairly tedious and annoying in some cases, it really makes a huge difference in debugging code, as you can see for yourself what outputs to expect and what it actually was, rather than manually testing code through print statements and commenting things out. 
   
  
