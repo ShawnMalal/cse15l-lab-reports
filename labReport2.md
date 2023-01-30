@@ -20,7 +20,35 @@ Another example:
 As for this example, the maing method and handleRequest method in their respective classes are called once again. The webpage is updated to reflect the most recent input while also displaying older ones based on the query and URI. This time, the string after the query is concatenated with the current string displayed with a new line as well. Since "Hi, there!" was already displayed, then the "My name is Shawn" is concatenated with that on a new line, all because the URI contained '/add'.
 
 ## *Part 2 - Identifying Bugs* 
+For this part, I chose the ReverseInPlace method from lab 3 in ArrayExamples.java. What the method is meant to do is to return the elements in the array in reversed order. 
 
+A failure-inducing input was { 1, 2, 3 }. 
+The test looks like this in the Junit file: 
 
+```
+@Test
+ public void testReverseInPlace() {
+   int[] input1 = { 1,2,3 };
+   ArrayExamples.reverseInPlace(input1);
+   assertArrayEquals(new int[]{ 3,2,1 }, input1);
+ }
+```
 
+As for an input that did not produce a failure-inducing input was an empty array {}. 
 
+```
+@Test
+  public void testReverseInPlace() {
+    int[] input1 = {};
+    assertArrayEquals(new int[]{}, ArrayExamples.reversed(input1));
+  }
+```
+
+Before fixing the bug in the code. It looked like this: 
+
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+ 
