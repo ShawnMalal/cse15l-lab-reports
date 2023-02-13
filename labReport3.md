@@ -59,7 +59,7 @@ written_2/travel_guides/berlitz1/WhereToFWI.txt:        the most colorful tropic
 written_2/travel_guides/berlitz1/WhereToFWI.txt:        Columbus named the island after St. Martin on that saint’s
 written_2/travel_guides/berlitz1/WhereToFWI.txt:        Known fondly as “St. Barts,” Columbus bestowed his brother’s name,
 ```
-The results may be long, but grep -r indeed was able to find all files that have the string "Columbus". 
+The results may be long, but grep -r indeed was able to find all files that have the string "Columbus" and all the files with the string "Lucayans". This is useful when trying to find a file with a specific word in mind or could be used to find data.  
 
 ## *grep --color*
 Using the --color command causes the terminal to highlight the matching patterns as the output
@@ -69,6 +69,8 @@ Using the --color command causes the terminal to highlight the matching patterns
 ![image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-02-12%20at%208.00.06%20PM.png)
 
 ![image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-02-12%20at%208.03.17%20PM.png)
+
+This command could be VERY useful, such as if you are trying to find some matching data in a txt file, this command would be able to highlight that. 
 
 ## *grep -n* 
 Using the -n command causes the terminal to return the specific lines that contain the specified pattern in the command, with the line numbers corresponding to it.
@@ -90,6 +92,7 @@ $ grep -n "America" written_2/travel_guides/berlitz1/HistoryFWI.txt
 123:        sympathies were undisguised: American ships were granted safe anchorage
 150:        leading to a diplomatic blow-up with the new American government.
 ```
+This command can also be useful with any data related files, such as finding which line the data shows up in, or if you are just curious which like a specific word shows up in. 
 
 ## *grep -c* 
 Using the -c command causes the terminal to return the number of times a certain specified pattern or string appears in a text file.
@@ -282,7 +285,10 @@ written_2/travel_guides/berlitz1/WhereToMadrid.txt:2
 written_2/travel_guides/berlitz1/WhereToMalaysia.txt:4
 written_2/travel_guides/berlitz1/WhereToMallorca.txt:0
 ```
+Once again, this type of command could be VERY useful with any data related files, as you are able to easily access how many times a specific pattern shows up within any single file or many files. 
 
+
+Overall, the grep command seems very useful for searching for specific patterns which could be very useful when it comes to some sort of data reading. 
 
 
 
