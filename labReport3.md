@@ -14,7 +14,7 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt:The Spaniards never bothere
 
 
 ```
-grep -r "Columbus" written_2/travel_guides/berlitz1 
+$ grep -r "Columbus" written_2/travel_guides/berlitz1 
 written_2/travel_guides/berlitz1/HistoryJamaica.txt:        Columbus and the Arrival of Europeans
 written_2/travel_guides/berlitz1/HistoryJamaica.txt:        Columbus first arrived in Jamaica on 5 May 1494 at Discovery
 written_2/travel_guides/berlitz1/HistoryJamaica.txt:        from Cuba. After the death of Columbus in 1505, Jamaica became the
