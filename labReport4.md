@@ -39,7 +39,7 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 ```
 and 
 ```
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 ```
 
 Which gave the output, demonstrating that the tests fail: 
@@ -51,8 +51,23 @@ Now, to fix the error within the ListExamples.java file, I typed in ``` nano Lis
 
 ![Image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-02-27%20at%208.13.03%20PM.png)
 
-To fix the error, I pressed the key `<down>` 42 times, and then `<right>` 12 times, then `<backspace>` 1 time, then typed in 2, to edit the line from index1 += 1; to index2 += 1;
+To fix the error, I pressed the key `<down>` 42 times, and then `<right>` 12 times, then `<backspace>` 1 time, then typed in 2, to edit the line from ```index1 += 1;``` to ```index2 += 1;```
 
 Then, I pressed the keys: `<Cntrl + O>`, `<enter>` and `<Cntrl + x>` to save and exit the file that was edited by me. 
 
 ## *Step 5 - Demonstrating that the test cases now pass*
+
+Keys pressed: ```<up> <up> <up> <enter>``` and ```<up> <up> <up> <enter>```
+
+Which then ran the same java commands for running the tests: 
+
+```
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+```
+and 
+```
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
+```
+The output in the terminal now demonstrate that the test cases pass: 
+
+![Image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-02-27%20at%208.42.06%20PM.png)
