@@ -19,3 +19,5 @@ I pressed `<up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up>
 ```
 git clone git@github.com:ShawnMalal/lab7.git
 ```
+Once entered, the terminal output should look like this: 
+![Image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-02-27%20at%206.47.40%20PM.png)
