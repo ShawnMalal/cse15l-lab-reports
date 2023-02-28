@@ -14,7 +14,7 @@ Then pressed `<enter>` to succssfully login
 ## *Step 2*
 Since the last time I have done this lab, the commands have been saved in the command history through the remote server, so to clone the dedicated repository. 
 
-I pressed '<up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up>` which amounts to 14 times in order to get to the command, which is: 
+I pressed `<up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up>` which amounts to 14 times in order to get to the command, which is: 
 
 ```
 git clone git@github.com:ShawnMalal/lab7.git
