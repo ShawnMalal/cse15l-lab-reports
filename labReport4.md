@@ -81,4 +81,6 @@ I first typed ```git add ListExamples.java <enter>``` in the terminal to add the
 
 Then to push the changes to my Github account, I typed in ```git push origin <enter>``` in which the terminal should now look like this: 
 
+![Image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-02-27%20at%208.51.28%20PM.png)
 
+And now, the changes have finally been pushed to my github account!
