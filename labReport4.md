@@ -55,4 +55,4 @@ To fix the error, I pressed the key `<down>` 42 times, and then `<right>` 12 tim
 
 Then, I pressed the keys: `<Cntrl + O>`, `<enter>` and `<Cntrl + x>` to save and exit the file that was edited by me. 
 
-## *Step 5 - Demonstrating that the test cases now pass
+## *Step 5 - Demonstrating that the test cases now pass*
