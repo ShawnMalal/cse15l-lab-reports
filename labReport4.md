@@ -46,6 +46,13 @@ Which gave the output, demonstrating that the tests fail:
 
 ![Image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-02-27%20at%207.53.41%20PM.png)
 
-## *Step 4 - Edit the file/Fix the code through nano
+## *Step 4 - Edit the file/Fix the code through nano*
+Now, to fix the error within the ListExamples.java file, I typed in ``` nano ListExamples.java``` and got to a screen that looks like this: 
 
+![Image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-02-27%20at%208.13.03%20PM.png)
 
+To fix the error, I pressed the key `<down>` 42 times, and then `<right>` 12 times, then `<backspace>` 1 time, then typed in 2, to edit the line from index1 += 1; to index2 += 1;
+
+Then, I pressed the keys: `<Cntrl + O>`, `<enter>` and `<Cntrl + x>` to save and exit the file that was edited by me. 
+
+## *Step 5 - Demonstrating that the test cases now pass
