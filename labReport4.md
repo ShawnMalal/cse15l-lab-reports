@@ -44,7 +44,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 
 Which gave the output, demonstrating that the tests fail: 
 
-![Image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-02-27%20at%207.53.41%20PM.png)
+![Image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-02-27%20at%208.37.33%20PM.png)
 
 ## *Step 4 - Edit the file/Fix the code through nano*
 Now, to fix the error within the ListExamples.java file, I typed in ``` nano ListExamples.java``` and got to a screen that looks like this: 
