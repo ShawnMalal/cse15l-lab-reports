@@ -71,3 +71,14 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 The output in the terminal now demonstrate that the test cases pass: 
 
 ![Image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-02-27%20at%208.42.06%20PM.png)
+
+## *Step 6 - commiting and pushing the resulting change to my Github Account* 
+The 6th and final step is to commit and push the changes I made through the nano file editor. 
+
+I first typed ```git add ListExamples.java <enter>``` in the terminal to add the changes, then ```git commit -m "ListExamples.java <enter>``` in order to commit the changes. The terminal output should then look like this: 
+
+![Image](https://raw.githubusercontent.com/ShawnMalal/cse15l-lab-reports/main/Screenshot%202023-02-27%20at%208.49.14%20PM.png)
+
+Then to push the changes to my Github account, I typed in ```git push origin <enter>``` in which the terminal should now look like this: 
+
+
